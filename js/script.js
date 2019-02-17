@@ -14,6 +14,12 @@ function triangle() {
       inputThree == inputOne
     ) {
       alert("It is an equilateral triangle");
+    } else if (
+      inputOne == inputTwo ||
+      inputTwo == inputThree ||
+      inputThree == inputOne
+    ) {
+      alert("It is an isosceles triangle");
     }
     document.getElementById("myForm").reset();
   }
