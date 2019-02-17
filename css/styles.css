@@ -9,7 +9,7 @@ body {
 .gif {
   width: 30%;
   margin: 2px auto 0px;
-  margin-left: 600px;
+  margin-left: 550px;
   padding: 3px 20px 5px 20px;
 }
 .gif img {
@@ -20,7 +20,7 @@ body {
   width: 30%;
   margin: 20px auto 0px;
   color: white;
-  background: #99c07f;
+  background: #2c9f79;
   text-align: center;
   border: 1px solid #b0c4de;
   border-bottom: none;
@@ -55,7 +55,7 @@ form {
   padding: 10px;
   border-radius: 5px;
   color: white;
-  background: #99c07f;
+  background: #2c9f79;
   border: none;
   font-size: 15px;
 }
