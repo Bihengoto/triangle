@@ -1,18 +1,20 @@
-//document.getElementById("myForm").addEventListner("identity", triangle);
-
 function triangle() {
-  var inputOne = parseInt(getElementById("one").value);
-  var inputTwo = parseInt(getElementById("two").value);
-  var inputThree = parseInt(getElementById("three").value);
+  var inputOne = parseInt(document.getElementById("one").value);
+  var inputTwo = parseInt(document.getElementById("two").value);
+  var inputThree = parseInt(document.getElementById("three").value);
 
-  //var inputArray = [];
-  //var allValues = inputArray.push(inputOne, inputTwo, inputThree);
   if (
-    inputOne + inputTwo > inputThree ||
-    inputTwo + inputThree > inputOne ||
+    inputOne + inputTwo > inputThree &&
+    inputTwo + inputThree > inputOne &&
     inputOne + inputThree > inputTwo
   ) {
+    if (
+      inputOne == inputTwo &&
+      inputTwo == inputThree &&
+      inputThree == inputOne
+    ) {
+      alert("It is an equilateral triangle");
+    }
+    document.getElementById("myForm").reset();
   }
-
-  //e.preventDefault();
 }

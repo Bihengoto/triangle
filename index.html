@@ -3,30 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <title>Triangle Identification</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="">
+    <div class="header">
       <h1>Triangle Tracker</h1>
       <h4>Isaac Mahugu Bihengoto</h4>
     </div>
-    <form id="myForm" method="post">
-      <p>
+    <form method="post" action="index.html" id="myForm">
+      <div class="input">
         <label>Enter Side <strong>One:</strong></label>
         <input type="text" name="" value="" id="one" />
-      </p>
-      <p>
+      </div>
+      <div class="input">
         <label>Enter Side <strong>Two:</strong></label>
         <input type="text" name="" value="" id="two" />
-      </p>
-      <p>
+      </div>
+      <div class="input">
         <label>Enter Side <strong>Three:</strong></label>
         <input type="text" name="" value="" id="three" />
-      </p>
-      <p>
-        <button onclick="triangle()" type="button" name="identity">
+      </div>
+      <div class="input">
+        <button
+          type="button"
+          class="button"
+          name="identity"
+          onclick="triangle()"
+        >
           IDENTITY
         </button>
-      </p>
+      </div>
     </form>
 
     <script src="js/script.js" type="text/javascript"></script>
