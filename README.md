@@ -38,3 +38,12 @@ NO bugs identified
 - CSS
 
 ## You can view active website here https://bihengoto.github.io/triangle/
+
+## Support and contact details
+
+get me at isaacbihengoto@gmail.com
+
+### License
+
+_License is under MIT 2019_
+Copyright (c) 2019 **isaac bihengoto**
