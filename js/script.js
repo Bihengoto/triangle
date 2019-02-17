@@ -27,4 +27,5 @@ function triangle() {
     alert("It is not a triangle");
   }
   document.getElementById("myForm").reset();
+  //resets the values of all elements in a form (same as clicking the Reset button)
 }
