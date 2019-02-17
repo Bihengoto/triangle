@@ -42,3 +42,11 @@ form {
   border-radius: 5px;
   border: 1px solid gray;
 }
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background: #99c07f;
+  border: none;
+  font-size: 15px;
+}
