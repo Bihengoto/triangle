@@ -20,7 +20,11 @@ function triangle() {
       inputThree == inputOne
     ) {
       alert("It is an isosceles triangle");
+    } else if ((inputOne != inputTwo) != inputThree) {
+      alert("It is a scalene triangle");
     }
-    document.getElementById("myForm").reset();
+  } else {
+    alert("It is not a triangle");
   }
+  document.getElementById("myForm").reset();
 }
