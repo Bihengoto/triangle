@@ -30,3 +30,11 @@ NO bugs identified
 | Test if inputs are all equal            | 8,8,8             | Equilateral Triangle |
 | Test if inputs have two sides equal     | 10,10,18          | isosceles Triangle   |
 | Test if all inputs are not equal        | 3,4,5             | Scalene Triangle     |
+
+## Technologies Used
+
+- JavaSCript
+- HTML5
+- CSS
+
+## You can view active website here https://bihengoto.github.io/triangle/
