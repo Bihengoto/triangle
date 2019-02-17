@@ -16,3 +16,17 @@ At the level at which I have designed this program, it enables the user to have 
 - easy to navigate through
 - JavaScript support
 - a PC of 500mb Ram and 20gb HDD connected to the internet
+
+## Known Bugs
+
+NO bugs identified
+
+## Behavior Driven Development
+
+| **Behavior**                            | **Input example** | **Output example**   |
+| --------------------------------------- | ----------------- | -------------------- |
+| Input should accept all type of numbers | 12.25,30,50       | True                 |
+| Test if inputs makes up a triangle      | 8,4,3             | True or False        |
+| Test if inputs are all equal            | 8,8,8             | Equilateral Triangle |
+| Test if inputs have two sides equal     | 10,10,18          | isosceles Triangle   |
+| Test if all inputs are not equal        | 3,4,5             | Scalene Triangle     |
